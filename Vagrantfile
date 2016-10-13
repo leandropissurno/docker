@@ -13,8 +13,8 @@ Vagrant.configure(2) do |config|
   # PLUGIN REGISTRATION
   if Vagrant.has_plugin?('vagrant-registration')
     config.registration.manager = 'subscription_manager'
-    config.registration.username = 'docker-1'
-    config.registration.password = 'docker00,'
+    config.registration.username = 'usuario'
+    config.registration.password = 'senha'
   end
 
   # DOCKER-DISTRIBUTION
