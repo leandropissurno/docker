@@ -7,5 +7,5 @@ echo net.ipv6.conf.all.disable_ipv6 = 1 >> /etc/sysctl.conf
 sysctl -p
 subscription-manager repos --enable=rhel-7-server-extras-rpms
 yum -y install vim docker docker-distribution nmap bash-completion mlocate net-tools traceroute
-yum -y groups install Web\ Servers
+yum -y groups install Web\ Server
 yum -y update
